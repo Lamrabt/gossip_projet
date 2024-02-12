@@ -1,0 +1,73 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS (and SCSS, if configured) file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+/* CSS FOR HOME PAGE */
+
+ .new_gossip_link{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+
+.link_gossip{
+    transition: 1s;
+
+}
+.link_gossip:hover{
+    text-decoration-color: rgb(143, 132, 243);
+    color: rgb(143, 132, 243);
+    transition: 1s;
+}
+
+ a{
+    text-decoration-color: rgba(255, 255, 255, 0);
+    transition: 0.5s;
+ }
+
+ a:hover{
+    text-decoration-color: rgb(143, 132, 243);
+    color: rgb(143, 132, 243);
+    transition: 0.5s;
+ }
+
+ .bg-image{
+    background-image: url(/public/gossip_hero.jpg);
+ }
+
+
+
+ /* CSS FOR GOSSIP PAGE */
+
+ .text-align{
+    text-align: center;
+ }
+
+ .box_gossip{
+margin: auto;
+text-align: center;
+display: flex;
+align-items: center;
+ }
+
+ .container{
+    border-bottom: solid 1px lightgray;
+ }
+
+ .box_comment{
+    margin: auto;
+    text-align: left;
+    display: flex;
+     }
